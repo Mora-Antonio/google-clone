@@ -5,6 +5,10 @@
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background-color: #202124;
+    color: #9aa0a6;
+}
 :root{
     font-size: 62.5%;
 }
@@ -163,4 +167,47 @@ main section.main-buttoms div button{
 main section.main-buttoms div button:hover{
     cursor: pointer;
     border: 1px solid #5f6368;
+}
+
+footer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+    height: 96px;
+    position: absolute;
+    bottom: 0;
+}
+footer div.coutry-google{
+    width: 100vw;
+    height: 50%;
+    border-bottom: 1px solid #212327;
+    padding: 15px 30px;
+}
+footer div.coutry-google span{
+    font-size: 1.5rem;
+}
+
+footer div.info-google{
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div.info-google ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+footer div.info-google ul li a{
+    text-decoration: none;
+    color: #9aa0a6;
+    font-size: 1.5rem;
+    padding: 15px;
+}
+footer div.info-google ul li a:hover{
+    text-decoration:underline;
 }
